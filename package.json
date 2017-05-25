@@ -1,0 +1,44 @@
+{
+  "name": "forrest",
+  "version": "1.0.0",
+  "description": "A story map of the life and career of Forrest Lee, also known as Father Goose.",
+  "main": "index.js",
+  "watch": {
+    "html": "src/index.html",
+    "json": "src/data/*.json"
+  },
+  "scripts": {
+    "html": "node build/html",
+    "json": "json-minify src/data/locations.json > dist/data/locations.js",
+    "watch": "npm-watch",
+    "clean": "node build/clean",
+    "browserify": "browserify src/js/index.js | uglifyjs -mc > dist/js/bundle.js",
+    "watchify": "watchify src/js/index.js -o dist/js/bundle.js -dv",
+    "watch:sass": "node-sass -w src/scss/styles.scss dist/css/styles.css",
+    "build:sass": "node-sass src/scss/styles.scss | postcss -c build/postcss.config.js -o dist/css/styles.css",
+    "serve": "browser-sync start --server 'dist' --files 'dist/**/*'",
+    "prestart": "npm run build:sass & npm run json",
+    "start": "npm run watch & npm run watch:sass & npm run watchify & npm run serve",
+    "build": "npm run clean && npm run build:sass && npm run json && npm run browserify"
+  },
+  "keywords": [],
+  "author": "@r0yhewitt <roy_hewitt@fws.gov>",
+  "license": "SAX-PD",
+  "dependencies": {
+    "mapbox-gl": "^0.37.0",
+    "xhr": "^2.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.12",
+    "browserify": "^14.3.0",
+    "cssnano": "^3.10.0",
+    "jsonminify": "^0.4.1",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.0.0",
+    "rimraf": "^2.6.1",
+    "sharp": "^0.17.3",
+    "uglifyjs": "^2.4.11",
+    "watchify": "^3.9.0"
+  }
+}
