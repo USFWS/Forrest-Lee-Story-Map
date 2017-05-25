@@ -19,7 +19,8 @@
     "serve": "browser-sync start --server 'dist' --files 'dist/**/*'",
     "prestart": "npm run build:sass & npm run json",
     "start": "npm run watch & npm run watch:sass & npm run watchify & npm run serve",
-    "build": "npm run clean && npm run build:sass && npm run json && npm run browserify"
+    "build": "npm run clean && npm run build:sass && npm run json && npm run browserify",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "@r0yhewitt <roy_hewitt@fws.gov>",
@@ -33,6 +34,7 @@
     "browser-sync": "^2.18.12",
     "browserify": "^14.3.0",
     "cssnano": "^3.10.0",
+    "gh-pages": "^1.0.0",
     "jsonminify": "^0.4.1",
     "node-sass": "^4.5.3",
     "postcss-cli": "^4.0.0",
