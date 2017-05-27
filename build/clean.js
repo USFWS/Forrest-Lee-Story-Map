@@ -5,7 +5,9 @@ const directories = [
   'dist/js',
   'dist/data',
   'dist/css',
-  'dist/images'
+  'dist/images',
+  'dist/images/svg',
+  'dist/fonts'
 ];
 
 rimraf('dist/*', err => {
