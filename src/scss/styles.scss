@@ -1,3 +1,15 @@
 @import 'normalize';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@import 'type';
 @import 'mapbox';
 @import 'map';
+@import 'control-panel';
+@import 'buttons';
+@import 'slides';

@@ -1,0 +1,31 @@
+.slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  height: 100vh;
+  left: 0;
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all .3s ease-in-out;
+  z-index: 1;
+
+  &[aria-hidden="true"] {
+    transform: translateX(-100%);
+  }
+}
+
+.intro {
+  background: white;
+  text-align: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}

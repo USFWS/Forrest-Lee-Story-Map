@@ -1,0 +1,27 @@
+button.previous,
+button.next {
+  background: none;
+  border: none;
+  height: 20vh;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2em;
+  z-index: 2;
+
+  @media (min-width: 700px) {
+    width: 3em;
+  }
+
+  @media (min-width: 900px) {
+    width: 4em;
+  }
+}
+
+button.previous {
+  left: 1em;
+}
+
+button.next {
+  right: 1em;
+}
