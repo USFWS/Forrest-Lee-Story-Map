@@ -8,10 +8,14 @@
         "coordinates": [-99.519603, 47.119133]
       },
       "properties": {
-        "label": "Pettibone, North Dakota",
+        "label": "Birthplace",
+        "heading": "Forrest Lee's birthplace, 1919",
         "date": "1919",
         "text": "Forrest Lee was born in Pettibone, North Dakota.",
-        "icon": "monument"
+        "icon": "monument",
+        "zoom": 12,
+        "images": [
+        ]
       }
     },
     {
@@ -22,9 +26,13 @@
       },
       "properties": {
         "label": "St. Cloud Teacher's College",
+        "heading": "St. Cloud Teacher's College, 1942",
         "date": "1942",
         "text": "Graduated from St. Cloud State Teachers College with a bachelor's degree in biolgoical sciences.",
-        "icon": "school"
+        "icon": "school",
+        "zoom": 12,
+        "images": [
+        ]
       }
     },
     {
@@ -35,9 +43,13 @@
       },
       "properties": {
         "label": "Luzon, Phillipines",
+        "heading": "Luzon, Phillipines, 1944",
         "date": "1944",
         "text": "Deployed with the Army's 37th Infantry Division to the Phillipines.",
-        "icon": "airfield"
+        "icon": "airfield",
+        "zoom": 10,
+        "images": [
+        ]
       }
     },
     {
@@ -48,9 +60,13 @@
       },
       "properties": {
         "label": "University of Minnesota",
+        "heading": "University of Minnesota, 1948",
         "date": "1948",
         "text": "Received a graduate degree in wildlife management and botany from the University of Minnesota.",
-        "icon": "library"
+        "icon": "library",
+        "zoom": 12,
+        "images": [
+        ]
       }
     },
     {
@@ -61,9 +77,13 @@
       },
       "properties": {
         "label": "Silver Lake, Rochester MN",
+        "heading": "Rediscovering the Giant Canada goose, 1962",
         "date": "1962",
-        "text": "Forrest had been studying a flock of large Canada geese on Silver Lake at Rochester, Minnesota and invited waterfowl experts in for trapping and further examination. The Silver Lake flock turned out to be Branta canadensis maxima, a species long thought to be extinct.",
-        "icon": "park"
+        "text": "Forrest had been studying a flock of large Canada geese on Silver Lake at Rochester, Minnesota and invited waterfowl experts in for trapping and further examination. The Silver Lake flock turned out to be <em>Branta canadensis maxima</em>, a species long thought to be extinct.",
+        "icon": "park",
+        "zoom": 13,
+        "images": [
+        ]
       }
     },
     {
@@ -74,9 +94,103 @@
       },
       "properties": {
         "label": "Maritime NWR",
+        "heading": "Maritime National Wildlife Refuge, 1962",
         "date": "1962",
         "text": "Forrest made his first trip to the Aleutians - photo of him at refuge headquarters at Adak AK. He also went to Amchitka Island on this trip.",
-        "icon": "harbor"
+        "icon": "harbor",
+        "zoom": 11,
+        "images": [
+          {
+            "name": "forrest-lee-at-refuge-sign-in-adak-alaska-1995.jpg",
+            "alt": "An elderly man with a cane poses in front of a sign at the entrance to the refuge.",
+            "caption": "Forrest Lee at Alaska Maritime National Wildlife Refuge in 1995."
+          },
+          {
+            "name": "aleutian-geese-held-prior-to-release.jpg",
+            "alt": "A flock of geese held in a net enclosure.",
+            "caption": "Aleutian geese held prior to their release."
+          },
+          {
+            "name": "aleutian-goose-close-up.jpg",
+            "alt": "A close up photograph of a goose.",
+            "caption": "Aleutian cackling goose."
+          },
+          {
+            "name": "aleutian-goose-in-water.jpg",
+            "alt": "A goose swimming in water.",
+            "caption": "Aleutian cackling goose in water."
+          },
+          {
+            "name": "aleutian-gosling-being-measured.jpg",
+            "alt": "Two gloved hands move closer to a small goosling in a bag.",
+            "caption": "Aleutian cackling goosling ready to be measured."
+          },
+          {
+            "name": "aleutian-gosling.jpg",
+            "alt": "A photograph of a juvenile gosling.",
+            "caption": "Aleutian cackling goosling."
+          },
+          {
+            "name": "aleutian-goslings-in-brooder.jpg",
+            "alt": "A dozen goslings in a warm brooding container.",
+            "caption": "Aleutian cackling gooslings in a brooder."
+          },
+          {
+            "name": "aleutian-goslings-in-lupine.jpg",
+            "alt": "A half dozen goslings amongst pretty purple flowers.",
+            "caption": "Aleutian cackling gooslings in lupine."
+          },
+          {
+            "name": "aleutian-hatchling-being-weighed.jpg",
+            "alt": "A slimy gosling on a scale.",
+            "caption": "Aleutian cackling hatchling being weighed."
+          },
+          {
+            "name": "aleutian-hatchlings-in-inclubator.jpg",
+            "alt": "Two small hatchlings in a warm incubator box.",
+            "caption": "Aleutian cackling goose hatchlings in an incubator."
+          },
+          {
+            "name": "forrest-lee-in-kamchatka-oct-1992.jpg",
+            "alt": "An elderly man holding an American flag with two Russian men around a family dinner table.",
+            "caption": "Forrest Lee with a Family in Kamchatka, Russia October 1992."
+          },
+          {
+            "name": "forrest-lee-fumio-sakumo-of-japan-in-kamchatka-1992.jpg",
+            "alt": "An American and Japanese man posing for a photo in a wintery landscape.",
+            "caption": "Forrest Lee posing for a photo with Fumio Sakumo of Japan in Kamchatka, Russia 1992."
+          },
+          {
+            "name": "dr-nickolai-gerasimov-greeting-forrest-lee-on-translocation-flight-to-kamchatka-1992-09-30.jpg",
+            "alt": "A Russian scientist on a small plane shows off a welcome sign for Father Goose.",
+            "caption": "Dr. Nickolai Gerasimov greeting Forrest Lee on translocation flight to Kamchatka September 30th, 1992.jpg."
+          },
+          {
+            "name": "flying-aleuthian-geese.jpg",
+            "alt": "A group of geese flying in front of a blue sky.",
+            "caption": "Flying Aleutian geese."
+          },
+          {
+            "name": "forrest-lee-in-achorage-with-crates-of-acg-being-shipped-to-kamchatka-1992-09-30.jpg",
+            "alt": "Forrest Lee posing for a photo in front of geese in crates along with a USFWS biologist in uniform.",
+            "caption": "Forrest Lee in Anchorage with crates of Aleuthian cackling geese ready to be shipped to Kamchatka, September 30th, 1992."
+          },
+          {
+            "name": "forrest-lee-tube-feeding-acg-during-1994-translocation.jpg",
+            "alt": "An older gentleman wearing a hat helps to feed a goose.",
+            "caption": "Forrest Lee feeding Aleutian cackling goose during 1994 translocation."
+          },
+          {
+            "name": "forrest-lee-with-members-of-japanese-assoc-for-wild-goose-protection-may-1983.jpg",
+            "alt": "Three gentlemen, two Japanese one american, pose for a photo.",
+            "caption": "Forrest Lee with members of the Japanese Association for Wild Goose Protection, May 1983."
+          },
+          {
+            "name": "sunrise-en-route-to-buldir-island-1978.jpg",
+            "alt": "A sunrise over mountains on from a boat.",
+            "caption": "Sunrise en route to Buldir Island, 1978."
+          }
+        ]
       }
     },
     {
@@ -87,9 +201,33 @@
       },
       "properties": {
         "label": "Amchitka Island",
+        "heading": "Rasing geese on Amchitka Island, AK, 1976 - 1979",
         "date": "1976-1979",
         "text": "Forrest spent May through August each year on Amchitka Island raising Aleutian cackling geese.",
-        "icon": "park"
+        "icon": "park",
+        "zoom": 12,
+        "images": [
+          {
+            "name": "forrest-weighing-gosling.jpg",
+            "alt": "A bearded man putting a small goose on a scale.",
+            "caption": "Forrest Lee weighing a gosling."
+          },
+          {
+            "name": "forrest-lee-amchitka-island-feb-1978.jpg",
+            "alt": "A bearded man in winter clothing in near whiteout conditions with a foot of snow on the ground.",
+            "caption": "Forrest Lee at Amchitka Island February 1978."
+          },
+          {
+            "name": "aleutian-goose-recovery-team-amchitka-island-1978-06-24.jpg",
+            "alt": "Six men in warm jackets pose for a photo in front of the Amchitka Island airport.",
+            "caption": "Aleutian goose recovery team at Amchitka Island airport June 24th, 1978."
+          },
+          {
+            "name": "forrest-lee-amchitka-island-summer-1979.jpg",
+            "alt": "A scruffy man in a light jacket poses in front of a thermometer that reads 60 degrees Farenheit.",
+            "caption": "Forrest Lee on Amchitka Island, summer 1979."
+          }
+        ]
       }
     }
   ]
