@@ -1,42 +1,43 @@
-const mapboxgl = require('mapbox-gl');
+const qs = require('query-string');
+
 const state = require('./state')
-mapboxgl.accessToken = 'pk.eyJ1Ijoicmhld2l0dCIsImEiOiJjajMzZ3k3MzcwMDFrMnhtd3J2emdldXQ1In0.O9y-1Rq14cuTD-Vgwkaa5g';
+const Slideshow = require('./slideshow');
+const Map = require('./map');
+const mediator = require('./mediator');
 
-const map = new mapboxgl.Map({
-  container: 'map',
-  style: 'mapbox://styles/mapbox/bright-v9', //satellite // bright
-  center: [-98.583333, 39.833333],
-  zoom: 5
+const parsed = qs.parse(location.search);
+
+const prevButton = document.querySelector('button.previous');
+const nextButton = document.querySelector('button.next');
+
+let map;
+
+state.init('./data/locations.js', (err, data) => {
+  if (err) console.error(err);
+
+  map = new Map({
+    container: 'map',
+    center: [-98.583333, 39.833333],
+    zoom: 5,
+    locations: data
+  });
+
+  map.flyTo(parseInt(parsed.slide) - 1);
+  mediator.emit('slide', parseInt(parsed.slide) || 0);
 });
 
-map.fitBounds([
-  [-124.848974, 24.396308],
-  [-66.885444, 49.384358]
-]);
+const navigation = new Slideshow({
+  currentSlide: parsed.slide || 0,
+  slides: document.querySelector('.slides'),
+  previousButton: prevButton,
+  nextButton: document.querySelector('button.next')
+});
 
-const addLayer = locations => {
-  map.addLayer({
-    "id": "points",
-    "type": "symbol",
-    "source": {
-      "type": "geojson",
-      "data": locations
-    },
-    "layout": {
-      "icon-image": "{icon}-15",
-      "text-field": "{label}",
-      "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-      "text-offset": [0, 0.6],
-      "text-anchor": "top"
-    }
-  });
+mediator.on('slide', i => i === 0 ? toggleButtonColor('add') : toggleButtonColor('remove'));
+
+function toggleButtonColor(action) {
+  const prevSVG = prevButton.querySelector('svg');
+  const nextSVG = nextButton.querySelector('svg');
+  prevSVG.classList[action]('dark');
+  nextSVG.classList[action]('dark');
 }
-map.on('load', () => {
-  state.init('../data/locations.js', (err, data) => {
-    if (err) console.error(err);
-    addLayer(data);
-  });
-});
-
-// Display result of browser test (WebGL) if this function fails
-// mapboxgl.supported();
