@@ -13,7 +13,7 @@ fs.readFile(input, 'utf8', (err, html) => {
   if (err) console.error(err);
   const $ = cheerio.load(html)
   const listItems = data.features
-    .map(createListItem)
+    .map(createSlide)
     .join('');
 
   $('.slides').append(listItems);
@@ -22,11 +22,27 @@ fs.readFile(input, 'utf8', (err, html) => {
   writeFile( pretty($.html()) );
 });
 
-function createListItem(feature) {
+function createSlide(feature) {
   return `
     <li class="slide" aria-hidden="true">
-      <h2>${feature.properties.label}</h2>
+      <h2>${feature.properties.heading}</h2>
       <p>${feature.properties.text}</p>
+      <ul class="image-gallery">
+        ${feature.properties.images
+            .map(createImage)
+            .join('')}
+      </ul>
+    </li>
+  `;
+}
+
+function createImage(image) {
+  return `
+    <li>
+      <figure>
+        <img src="./images/${image.name}" alt="${image.alt}" />
+        <figcaption>${image.caption}</figcaption>
+      </figure>
     </li>
   `;
 }
