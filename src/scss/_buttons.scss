@@ -3,11 +3,20 @@ button.next {
   background: none;
   border: none;
   height: 20vh;
+  outline: none;
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
   width: 2em;
   z-index: 2;
+
+  svg {
+    fill: white;
+
+    &.dark {
+      fill: black;
+    }
+  }
 
   @media (min-width: 700px) {
     width: 3em;
