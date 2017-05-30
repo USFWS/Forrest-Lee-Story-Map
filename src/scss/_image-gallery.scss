@@ -1,0 +1,36 @@
+.image-gallery {
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 2%;
+  position: fixed;
+  width: 100%;
+
+  figure {
+    display: table;
+    margin: 0;
+  }
+
+  figcaption {
+    display: none;
+  }
+
+  img {
+    width: 125px;
+    transition: transform .3s;
+
+    &:hover {
+      transform: scale(2.5);
+    }
+
+    figcaption {
+      display: table-caption;
+      caption-side: bottom;
+      text-align: center;
+    }
+  }
+}
