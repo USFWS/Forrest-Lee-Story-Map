@@ -17,15 +17,7 @@ const outSizes = [
     path: '/'
   },
   {
-    width: 850,
-    path: 'medium/'
-  },
-  {
-    width: 450,
-    path: 'small/'
-  },
-  {
-    width: 125,
+    width: 250,
     path: 'tiny/'
   }
 ];
