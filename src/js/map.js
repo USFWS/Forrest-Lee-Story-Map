@@ -44,6 +44,7 @@ function addLayer(map, locations) {
 Map.prototype.flyTo = function(index) {
   const feature = this.locations.features[index - 1];
   if (!feature) return;
+  if (feature.geometry.type === 'MultiPoint') return map.fitBounds(feature.geometry.coordinates);
   map.flyTo({
     center: feature.geometry.coordinates,
     zoom: feature.properties.zoom
