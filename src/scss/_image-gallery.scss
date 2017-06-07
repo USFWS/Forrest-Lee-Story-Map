@@ -1,4 +1,5 @@
 .image-gallery {
+  align-items: baseline;
   bottom: 0;
   display: flex;
   flex-wrap: wrap-reverse;
@@ -23,7 +24,8 @@
     width: 125px;
     transition: transform .3s;
 
-    &:hover {
+    &:hover,
+    &:focus {
       transform: scale(2.5);
     }
 
