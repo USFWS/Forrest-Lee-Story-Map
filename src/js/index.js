@@ -2,6 +2,7 @@ const qs = require('query-string');
 
 const state = require('./state')
 const Slideshow = require('./slideshow');
+const Lightbox = require('./lightbox');
 const Map = require('./map');
 const mediator = require('./mediator');
 
@@ -9,6 +10,8 @@ const parsed = qs.parse(location.search);
 
 const prevButton = document.querySelector('button.previous');
 const nextButton = document.querySelector('button.next');
+
+const lightbox = new Lightbox(document.querySelector('.lightbox'));
 
 let map;
 
@@ -22,8 +25,7 @@ state.init('./data/locations.js', (err, data) => {
     locations: data
   });
 
-  map.flyTo(parseInt(parsed.slide) - 1);
-  mediator.emit('slide', parseInt(parsed.slide) || 0);
+  mediator.emit('slide', parseInt(parsed.slide -1) || 0);
 });
 
 const navigation = new Slideshow({
@@ -41,3 +43,23 @@ function toggleButtonColor(action) {
   prevSVG.classList[action]('dark');
   nextSVG.classList[action]('dark');
 }
+
+// const keyHandler = (e) => {
+//   const key = e.keyCode ? e.keyCode : e.which;
+//   let slideIndex = navigation.currentSlide;
+//   if (key === 37) {
+//     slideIndex = slideIndex - 1;
+//     if (slideIndex < 0) slideIndex = 0;
+//   }
+//   if (key === 39) {
+//     slideIndex = slideIndex + 1;
+//     if (slideIndex > navigation.slides.length - 1) slideIndex = 0;
+//   }
+//   mediator.emit('slide', slideIndex);
+//   navigation.currentSlide = slideIndex;
+// }
+
+// window.addEventListener('keyup', keyHandler);
+
+// isGreaterThanNumberOfSlides
+// isNegativeIndex
