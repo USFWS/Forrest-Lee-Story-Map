@@ -3,6 +3,7 @@ const sharp = require('sharp');
 const mkdirp = require('mkdirp');
 const imagemin = require('imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminPngquant = require('imagemin-pngquant');
 const rimraf = require('rimraf');
 
 const fs = require('fs');
@@ -23,17 +24,16 @@ const outSizes = [
 ];
 
 
-rimraf(`${output}*.jpg`, function(err) {
+rimraf(`${output}*`, function(err) {
   if (err) return console.error(err);
 
   fs.readdir(input, (err, files) => {
     if (err) return console.error(err);
 
-
     // Remove .DS_Store files, they're the worst.
     files = files
       .filter(file => file !== '.DS_Store')
-      .filter(f => f.includes('.jpg'));
+      .filter(f => f.includes('.jpg') || f.includes('.png'));
 
     async.eachLimit(files, 5, (name, cb) => {
       const filepath = path.join(input, name);
@@ -59,7 +59,7 @@ function processImage(filepath, done) {
 function minify(buffer, filename, done) {
 
   imagemin.buffer(buffer, {
-    plugins: [ imageminMozjpeg() ]
+    plugins: [ imageminMozjpeg(), imageminPngquant() ]
   }).then(buffer => {
     const directory = path.dirname(filename);
     mkdirp(directory, (err) => {
