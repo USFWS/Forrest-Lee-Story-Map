@@ -1,0 +1,62 @@
+.lightbox {
+  background: rgba(0,0,0,.7);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  &[aria-hidden=true] {
+    display: none;
+  }
+
+  figure {
+    display: table;
+    margin: auto;
+    max-width: 80%;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+      max-height: 75vh;
+    }
+  }
+
+  figcaption {
+    background: rgba(0, 0, 0, .8);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    caption-side: bottom;
+    color: white;
+    display: table-caption;
+    margin-top: -5px;
+    padding: 2%;
+    text-align: left;
+
+    a {
+      color: white;
+
+      &:hover {
+        color: rgba(185, 185, 185, 0.8);
+      }
+    }
+  }
+
+  button.close {
+    background: white;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .7);
+    border-radius: 50%;
+    font-size: 2em;
+    font-weight: bold;
+    height: 50px;
+    position: absolute;
+    right: 8%;
+    top: 8%;
+    width: 50px;
+    z-index: 1;
+  }
+}
