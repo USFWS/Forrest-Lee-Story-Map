@@ -40,7 +40,7 @@ function createImage(image) {
   return `
     <li>
       <figure>
-        <img src="./images/${image.name}" alt="${image.alt}" />
+        <img src="./images/tiny/${image.name}" alt="${image.alt}" tabindex="0" />
         <figcaption>${image.caption}</figcaption>
       </figure>
     </li>
