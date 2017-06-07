@@ -26,13 +26,8 @@
 
     &:hover,
     &:focus {
+      cursor: pointer;
       transform: scale(2.5);
-    }
-
-    figcaption {
-      display: table-caption;
-      caption-side: bottom;
-      text-align: center;
     }
   }
 }
