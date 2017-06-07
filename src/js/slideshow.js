@@ -1,12 +1,11 @@
-const Gallery = require('./gallery');
 const mediator = require('./mediator');
 
 const Slideshow = function(opts) {
   // Get a list of slides to work width
   // Could add error handling that we're getting a UL/OL with child LI slides
+  this.container = opts.slides;
   this.slides = Array.from(opts.slides.querySelectorAll('li.slide'));
-  this.galleries = Array.from(opts.slides.querySelectorAll('.image-gallery'));
-  this.galleries.forEach(g => new Gallery({ container:g }));
+  const figures = Array.from(opts.slides.querySelectorAll('figure'));
 
   // Start on the correct slide (value from user: 1 = first slide, 2 = second, etc.)
   const isValidIndex = opts.currentSlide > 0 && opts.currentSlide < this.slides.length + 1;
@@ -20,6 +19,7 @@ const Slideshow = function(opts) {
   this.nextButton = opts.nextButton;
   this.previousButton.addEventListener('click', this.previous.bind(this));
   this.nextButton.addEventListener('click', this.next.bind(this));
+  this.container.addEventListener('click', figureEventHandler);
 }
 
 Slideshow.prototype.next = function() {
@@ -64,6 +64,15 @@ Slideshow.prototype.deactivateSlide = function(slide) {
 
 Slideshow.prototype.activateSlide = function(slide) {
   slide.setAttribute('aria-hidden', 'false');
+}
+
+function figureEventHandler(e) {
+  const figure = e.target.parentNode;
+  const alt = e.target.alt;
+  const src = e.target.src;
+  const caption = figure.querySelector('figcaption').innerHTML;
+  if (figure.nodeName !== 'FIGURE') return;
+  mediator.emit('click:figure', {src, alt, caption})
 }
 
 module.exports = Slideshow;
