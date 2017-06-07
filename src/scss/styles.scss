@@ -7,6 +7,11 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 @import 'type';
 @import 'mapbox';
 @import 'map';
@@ -14,3 +19,4 @@ html {
 @import 'buttons';
 @import 'slides';
 @import 'image-gallery';
+@import 'lightbox';
