@@ -13,8 +13,24 @@ button.next {
   svg {
     fill: white;
 
+    &:hover {
+      fill: darken(white, 20);
+    }
+
+    &:active {
+      fill: darken(white, 40);
+    }
+
     &.dark {
       fill: black;
+
+      &:hover {
+        fill: lighten(black, 20);
+      }
+
+      &:active {
+        fill: lighten(black, 40);
+      }
     }
   }
 
