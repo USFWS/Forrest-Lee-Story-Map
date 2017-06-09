@@ -20,6 +20,7 @@ const Slideshow = function(opts) {
   this.previousButton.addEventListener('click', this.previous.bind(this));
   this.nextButton.addEventListener('click', this.next.bind(this));
   this.container.addEventListener('click', figureEventHandler);
+  document.body.addEventListener('keyup', keyHandler.bind(this));
 }
 
 Slideshow.prototype.next = function() {
@@ -73,6 +74,12 @@ function figureEventHandler(e) {
   const caption = figure.querySelector('figcaption').innerHTML;
   if (figure.nodeName !== 'FIGURE') return;
   mediator.emit('click:figure', {src, alt, caption})
+}
+
+function keyHandler(e) {
+  const key = e.which || e.keyCode;
+  if (key === 39) this.next();
+  if (key === 37) this.previous();
 }
 
 module.exports = Slideshow;
