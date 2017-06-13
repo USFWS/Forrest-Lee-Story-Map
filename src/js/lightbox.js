@@ -6,7 +6,7 @@ const Lightbox = function(target) {
   this.caption = target.querySelector('figcaption');
   this.close = target.querySelector('button');
 
-  mediator.on('click:figure', this.updateSlide.bind(this));
+  mediator.on('click:thumbnail', this.updateSlide.bind(this));
   mediator.on('slide', this.deactivate.bind(this));
   this.close.addEventListener('click', this.deactivate.bind(this));
   this.target.addEventListener('click', clickHandler.bind(this))
