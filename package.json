@@ -48,6 +48,7 @@
   "author": "@r0yhewitt <roy_hewitt@fws.gov>",
   "license": "SAX-PD",
   "dependencies": {
+    "closest": "0.0.1",
     "mapbox-gl": "^0.37.0",
     "query-string": "^4.3.4",
     "xhr": "^2.4.0"
