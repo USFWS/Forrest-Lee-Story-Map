@@ -61,3 +61,11 @@
     fill: black;
   }
 }
+
+.instructions {
+  bottom: 3em;
+  max-width: 600px !important;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+}
