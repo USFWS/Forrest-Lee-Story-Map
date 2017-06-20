@@ -45,6 +45,10 @@
   text-align: center;
   text-shadow: none;
 
+  img {
+    max-height: 50vh;
+  }
+
   h2,
   p {
     max-width: 100%;
@@ -59,6 +63,39 @@
   button.previous,
   button.next {
     fill: black;
+  }
+}
+
+.outro {
+  background-image: url('../images/sunrise-en-route-to-buldir-island-1978.jpg');
+  background-size: cover;
+  padding: 0 !important;
+  text-align: center;
+
+  .background {
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    padding: 5%;
+    position: fixed;
+    width: 100%;
+  }
+
+  .credit {
+    bottom: 5%;
+    display: block;
+    position: fixed;
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: 2em !important;
+  }
+
+  h2,
+  p {
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 3px 3px 10px black;
   }
 }
 
