@@ -16,7 +16,7 @@ fs.readFile(input, 'utf8', (err, html) => {
     .map(createSlide)
     .join('');
 
-  $('.slides').append(listItems);
+  $('.intro').after(listItems);
   $('.last-updated').append(`Last updated: ${now}`);
 
   writeFile( pretty($.html()) );
