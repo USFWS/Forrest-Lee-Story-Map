@@ -11,7 +11,7 @@
         "label": "Birthplace",
         "heading": "Forrest Lee's birthplace, 1919",
         "date": "1919",
-        "text": "Pettibone, North Dakota, Lee sat atop a one-horse cultivator on his father’s North Dakota farm in the 1920s, marveling at the flights of geese even then absent of many giant Canadas.",
+        "text": "Born in Pettibone, North Dakota, as a child Lee sat atop a one-horse cultivator on his father’s North Dakota farm in the 1920s marveling at the flights of geese.",
         "icon": "monument",
         "zoom": 13,
         "images": [
@@ -29,6 +29,16 @@
             "name": "poultry-keeping-merit-badge.jpg",
             "alt": "An orange card certifying completion of requirements for poultry keeping merit badge with the boy scouts.",
             "caption": "Boy Scouts of American certificate for poultry keeping, 1933."
+          },
+          {
+            "name": "introduction-to-science-workbook.jpg",
+            "alt": "An orange primary school workbook from the 1930's.",
+            "caption": "Forrest Lee's introduction to science workbook from the 1935-1936 school year."
+          },
+          {
+            "name": "report-on-abe-lincoln.jpg",
+            "alt": "A small paper report with Abe Lincoln's silhouette.",
+            "caption": "Forrest Lee's primary school report on Abraham Lincoln."
           }
         ]
       }
@@ -43,7 +53,7 @@
         "label": "St. Cloud Teacher's College",
         "heading": "St. Cloud Teacher's College, 1942",
         "date": "1942",
-        "text": "George attended St. Cloud Teacher's College now known as St. Cloud State University to study biological sciences. One of Forrest's favorite treats was a care package from the family garden full of squash and other fresh vegetables. Forrest graduated from St. Cloud State Teachers College with a bachelor's degree in 1942 before going on to teach physics and biology at East Chain Lake school.",
+        "text": "Forrest attended St. Cloud Teacher's College to study biological sciences before going on to teach physics and biology at East Chain Lake school. Lee regarded professor George W. Friedrich as a major influence in his life both during and after college.  Friedrich was a &ldquo;great conservationist&rdquo; who taught Forrest &ldquo;intellectual honesty.&rdquo;",
         "icon": "school",
         "zoom": 12,
         "images": [
@@ -105,7 +115,7 @@
         "label": "Luzon, Phillipines",
         "heading": "Army, 37th Infantry Division, World War II, 1943 - 1946",
         "date": "1944",
-        "text": "<p>In 1943, Forrest was inducted into the Army's 37th Infantry Division at Fort Snelling, Minnesota.  Lee arrived at the Pacific Theater in on October 30th, 1944 seeing action in New Guinea, the Northern Solomons, and Luzon, Philippines.</p><p>While abroad GIs were allowed to ship personal effects home.  Forrest traded a satchel of cigarettes for a pair of bookends from a shopkeeper.  He sent home Japanese rifles, bayonets, and propaganda among other gifts.</p><p>Forrest was honorably discharged on February 15th, 1946 after receiving several awards including the Good Conduct medal and the Philippine liberation ribbon with bronze star.</p>",
+        "text": "<p>In 1943, Forrest was inducted into the Army's 37th Infantry Division before being deployed to the Pacific Theater on October 30th, 1944.  While in the Philippines Lee exchanged many letters with his parents where he detailed local plant and animal communities as well as the fertility of the soil.</p><p>Forrest was honorably discharged on February 15th, 1946 after receiving several awards including the Good Conduct medal and the Philippine liberation ribbon with bronze star.</p>",
         "icon": "airfield",
         "zoom": 8,
         "images": [
@@ -192,6 +202,11 @@
             "caption": "Forrest Lee at Itasca state park, 1947."
           },
           {
+            "name": "forrest-lee-on-boat-at-itasca.jpg",
+            "alt": "A man with a pipe in his mouth in a motor boat.",
+            "caption": "Forrest Lee on the water at Itasca state park, 1947."
+          },
+          {
             "name": "golden-gopher.png",
             "alt": "The gopher mascott for the University of Minnesota.",
             "caption": "Goldy Gopher, University of Minnesota.  Logo from <a href='https://en.wikipedia.org/wiki/File:GoldyGopher.png' target='_blank'>Wikipedia commons</a>, <a href='//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline' title='Wikipedia:Non-free use rationale guideline'>Fair use</a> of copyrighted material."
@@ -209,14 +224,29 @@
         "label": "Minnesota Conservation Department",
         "heading": "Minnesota Conservation Department, 1949",
         "date": "1949",
-        "text": "Forrest moved to St. Paul, Minnesota to start career with the Minneosta Conservation Department where he conducted aerial game surveys with Minnesota Department of Natural Resources taking aerial photographs &ldquo;all over Minnesota.&rdquo;",
+        "text": "At age 30, Forrest began his professional career, starting as a game biologist with the Minnesota Conservation Department and working his way up to supervising all game research for the state by age 43.",
         "icon": "library",
         "zoom": 12,
         "images": [
           {
-            "name": "forrest-lee-with-wife-janet-on-honeymoon.jpg",
-            "alt": "A man and a woman posing for a photo in front of a waterfall.",
-            "caption": "Forrest and his wife Janet on their honeymoon."
+            "name": "forrest-with-minnesota-game-and-fish.jpg",
+            "alt": "Two men standing next to a truck with a Minnesota Game and Fish canoe on top.",
+            "caption": "Forrest with the Minnesota division of Game and Fish."
+          },
+          {
+            "name": "conservation-volunteer-mn.jpg",
+            "alt": "An orange newsletter booklet from the Minnesota department of conservation.",
+            "caption": "The Conservation Volunteer, September 1950, a periodic publication of the Minnesota department of conservation."
+          },
+          {
+            "name": "goose-drawings.jpg",
+            "alt": "Anatomical drawings of a goose.",
+            "caption": "Lee was an accomplished artist who drew many of the illustrations necessary for his work. He also included drawings while courting his future wife, Janet."
+          },
+          {
+            "name": "conservation-volunteer-1957.jpg",
+            "alt": "A newsletter with a father and son holding waterfowl after a hunting trip.",
+            "caption": "Lee authored many articles for the Conservation Volunteer."
           }
         ]
       }
@@ -231,10 +261,20 @@
         "label": "Silver Lake, Rochester MN",
         "heading": "Rediscovering the Giant Canada goose, 1962",
         "date": "1962",
-        "text": "Forrest had been studying a flock of large Canada geese on Silver Lake at Rochester, Minnesota and invited waterfowl experts in for trapping and further examination. The Silver Lake flock turned out to be <em>Branta canadensis maxima</em>, a species long thought to be extinct.",
+        "text": "Forrest observed a flock of Canada geese on Silver Lake in Rochester Minnesota, then convened a team of researchers to verify that the birds were the Giant Canada Goose (<em>Branta canadensis maxima</em>), previously thought to be extinct.",
         "icon": "park",
         "zoom": 14,
         "images": [
+          {
+            "name": "rediscovered-giant-canada-goose.jpg",
+            "alt": "Official press release from DOI on rediscovery of giant Canada goose.",
+            "caption": "Department of the Interior press release announcing the rediscovery of the giant Canada goose."
+          },
+          {
+            "name": "giant-canada-goose-clipping.jpg",
+            "alt": "Newspaper clipping.",
+            "caption": "Newspaper clipping detailing the rediscovery of the giant Canada goose."
+          },
           {
             "name": "silver-lake-rochester-mn.jpg",
             "alt": "A bright orange/yellow sunset lights up a small lake.",
@@ -244,6 +284,26 @@
             "name": "geese-at-silver-lake-rochester-mn.jpg",
             "alt": "Two Canadian geeze swimming through chilly water.",
             "caption": "Canada geese at Silver Lake, Rochester, Minnesota.  Photo by <a href='https://www.flickr.com/photos/dobak/' target='_blank'>Derek Bakken</a>, <a href='https://creativecommons.org/licenses/by/2.0/' target='_blank'>CC BY 2.0</a>."
+          },
+          {
+            "name": "return-of-the-honker.jpg",
+            "alt": "A story on the return of the giant Canada goose.",
+            "caption": "A story on the return of the giant Canada goose by Silver Lake National Wildlife Refuge manager and close friend of Lee, Lyle Schoonover."
+          },
+          {
+            "name": "canada-geese-at-silver-lake.jpg",
+            "alt": "Geese on a frigid lake at sunset.",
+            "caption": "Photo from Lee's chapter Return of the Giants in <em>Restoring America's Wildlife</em>. Canada geese at Silver Lake, MN. Photo by Jack Heather, MN Department of Natural Resources."
+          },
+          {
+            "name": "giant-canada-goose-from-lees-chapter.jpg",
+            "alt": "A large goose with it's tongue hanging out.",
+            "caption": "Photo from Lee's chapter Return of the Giants in <em>Restoring America's Wildlife</em>. Giant Canada goose. Photo by Mike Johnson, North Dakota Game and Fish Department."
+          },
+          {
+            "name": "giant-canada-goose-range.jpg",
+            "alt": "A map highlighting the great plains of the Midwest and Canada.",
+            "caption": "Excerpt from Lee's chapter Return of the Giants in <em>Restoring America's Wildlife</em>. Approximate breeding range of the giant Canada goose prior to settlement. (From Harold Hanson's book, The Giant Canada Goose, 1965.) "
           }
         ]
       }
@@ -258,14 +318,29 @@
         "label": "Northern Prairie Wildlife Research Center",
         "heading": "Northern Prairie Wildlife Research Center Canada goose production and restoration program, 1962",
         "date": "1965",
-        "text": "Forrest and his family moved to Jamestown, North Dakota where Forrest would head the Northern Prairie Wildlife Research Center's Canada goose production and restoration program.",
+        "text": "Forrest and his family moved to Jamestown, North Dakota  in 1965 where Forrest would head the Northern Prairie Wildlife Research Center's Canada goose production and restoration program.",
         "icon": "park",
         "zoom": 13,
         "images": [
           {
+            "name": "Home-Grown-Honkers.jpg",
+            "alt": "Illustration of a goose on the front of a book.",
+            "caption": "Home Grown Honkers, Volume 75 (154 pages) by Forrest Lee, edited by Herbert H. Dill, Forrest B. Lee. Published by Bureau of Sport Fisheries and Wildlife, 1970. Original from Indiana University; digitized on Oct 26, 2012."
+          },
+          {
             "name": "forrest-lee-banding-geese-at-chase-lake-nwr.jpg",
             "alt": "A black and white photo of a man holding a large goose on the shore of a lake.",
             "caption": "Forrest Lee banding geese at Chase Lake National Wildlife Refuge."
+          },
+          {
+            "name": "northern-prairie-captive-breeding.jpg",
+            "alt": "A farm covered in captive breeding enclosures.",
+            "caption": "North Dakota’s Home Grown Honkers: Once a ‘Giant’ Dream. Photo by Mike Johnson, North Dakota Game and Fish Department."
+          },
+          {
+            "name": "dedication-of-northern-prairie-wildlife-research-center.jpg",
+            "alt": "A program for the dedication of the center.",
+            "caption": "Program from the 1965 dedication of the Northern Prairie Wildlife Research Center in Jamestown, ND."
           },
           {
             "name": "northern-prairie-wildlife-research-center.jpg",
@@ -296,6 +371,11 @@
             "name": "giant-canada-goose-nest.jpg",
             "alt": "A nest containing four eggs next to a rocky stream.",
             "caption": "Giant Canada goose (<em>Branta canadensis maxima</em>) nest. <a href='http://media.eol.org/content/2016/07/22/22/97165_orig.jpg' target='_blank'>Photo</a> &copy; John Barkla, <a href='https://creativecommons.org/licenses/by-nc/4.0/' target='_blank'>CC BY-NC 4.0</a>."
+          },
+          {
+            "name": "artificial-nesting-box-for-giant-canada-geese.jpg",
+            "alt": "A family of geese in a man-made elevated nesting box.",
+            "caption": "Sophisticated nesting structures like this are commonly used in captive propagation pro­grams;Jreeflying giant geese will readily nest on a muskrat house or bale of hay or straw, as long as it is elevated. Photo by Kansas Fish and Game."
           }
         ]
       }
@@ -304,15 +384,15 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-176.63739, 51.869739]
+        "coordinates": [-177.749185, 51.732270]
       },
       "properties": {
         "label": "Aleutian Islands NWR",
-        "heading": "Aleutian Islands National Wildlife Refuge, 1962",
+        "heading": "Aleutian Canada Goose Recovery Team, 1962",
         "date": "1975",
-        "text": "Forrest made his first trip to the Aleutians - photo of him at refuge headquarters at Adak AK. He also went to Amchitka Island on this trip.  The Aleutian Islands National Wildlife Refuge was renamed to Alaska Maritime National Wildlife Refuge in 1980 when all of the islands were consolidated into a single refuge.",
+        "text": "<p>Forrest was appointed one of the six members of the Service’s Aleutian Goose Recovery Team following it's classification as endangered on March 11, 1967. </p><p>Forrest spent May through August from 1976-1980 on Amchitka Island raising Aleutian Canada Geese and translocating them to fox-free Aleutian Islands.  He continued his extensive involvement with the Program through the 1990’s.</p>",
         "icon": "harbor",
-        "zoom": 11,
+        "zoom": 5,
         "images": [
           {
             "name": "forrest-lee-at-refuge-sign-in-adak-alaska-1995.jpg",
@@ -355,39 +435,14 @@
             "caption": "Aleutian cackling goose hatchlings in an incubator."
           },
           {
-            "name": "forrest-lee-in-kamchatka-oct-1992.jpg",
-            "alt": "An elderly man holding an American flag with two Russian men around a family dinner table.",
-            "caption": "Forrest Lee with a Family in Kamchatka, Russia October 1992."
-          },
-          {
-            "name": "forrest-lee-fumio-sakumo-of-japan-in-kamchatka-1992.jpg",
-            "alt": "An American and Japanese man posing for a photo in a wintery landscape.",
-            "caption": "Forrest Lee posing for a photo with Fumio Sakumo of Japan in Kamchatka, Russia 1992."
-          },
-          {
-            "name": "dr-nickolai-gerasimov-greeting-forrest-lee-on-translocation-flight-to-kamchatka-1992-09-30.jpg",
-            "alt": "A Russian scientist on a small plane shows off a welcome sign for Father Goose.",
-            "caption": "Dr. Nickolai Gerasimov greeting Forrest Lee on translocation flight to Kamchatka September 30th, 1992.jpg."
-          },
-          {
             "name": "flying-aleuthian-geese.jpg",
             "alt": "A group of geese flying in front of a blue sky.",
             "caption": "Flying Aleutian geese."
           },
           {
-            "name": "forrest-lee-in-achorage-with-crates-of-acg-being-shipped-to-kamchatka-1992-09-30.jpg",
-            "alt": "Forrest Lee posing for a photo in front of geese in crates along with a USFWS biologist in uniform.",
-            "caption": "Forrest Lee in Anchorage with crates of Aleuthian cackling geese ready to be shipped to Kamchatka, September 30th, 1992."
-          },
-          {
             "name": "forrest-lee-tube-feeding-acg-during-1994-translocation.jpg",
             "alt": "An older gentleman wearing a hat helps to feed a goose.",
             "caption": "Forrest Lee feeding Aleutian cackling goose during 1994 translocation."
-          },
-          {
-            "name": "forrest-lee-with-members-of-japanese-assoc-for-wild-goose-protection-may-1983.jpg",
-            "alt": "Three gentlemen, two Japanese one american, pose for a photo.",
-            "caption": "Forrest Lee with members of the Japanese Association for Wild Goose Protection, May 1983."
           }
         ]
       }
@@ -487,6 +542,11 @@
             "name": "aleutian-goose-close-up.jpg",
             "alt": "A close up photograph of a goose.",
             "caption": "Aleutian cackling goose."
+          },
+          {
+            "name": "aleutian-goose-in-water.jpg",
+            "alt": "A goose swimming in water.",
+            "caption": "Aleutian cackling goose in water."
           }
         ]
       }
@@ -495,20 +555,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [173.621333,52.434624]
+        "coordinates": [158.676354, 53.023964]
       },
       "properties": {
-        "label": "Aggatu Island, Alaska",
-        "heading": "Aggatu Island, Alaska, 1980",
-        "date": "1980",
-        "text": "Forrest translocated Aleutian cackling geese to Agattu Island.",
+        "label": "Petropavlovsk, Kamchatka, Russia",
+        "heading": "Restoration of Asian Aleutian Goose Population, 1980's - 1990's",
+        "date": "1980's - 1990's",
+        "text": "Throughout the 1980’s-1990’s, Forrest collaborated with Japanese and Russian wildlife agencies on a program to reestablish Aleutian Canada Geese in the Asian portion of their range.  Forrest was affectionately referred to as “Father Goose” by the Japanese and Russian biologists.",
         "icon": "park",
         "zoom": 10,
         "images": [
           {
-            "name": "aleutian-goose-in-water.jpg",
-            "alt": "A goose swimming in water.",
-            "caption": "Aleutian cackling goose in water."
+            "name": "forrest-lee-in-achorage-with-crates-of-acg-being-shipped-to-kamchatka-1992-09-30.jpg",
+            "alt": "Forrest Lee posing for a photo in front of geese in crates along with a USFWS biologist in uniform.",
+            "caption": "Forrest Lee in Anchorage with crates of Aleuthian cackling geese ready to be shipped to Kamchatka, September 30th, 1992."
+          },
+          {
+            "name": "dr-nickolai-gerasimov-greeting-forrest-lee-on-translocation-flight-to-kamchatka-1992-09-30.jpg",
+            "alt": "A Russian scientist on a small plane shows off a welcome sign for Father Goose.",
+            "caption": "Dr. Nickolai Gerasimov greeting Forrest Lee on translocation flight to Kamchatka September 30th, 1992.jpg."
+          },
+          {
+            "name": "forrest-lee-in-kamchatka-oct-1992.jpg",
+            "alt": "An elderly man holding an American flag with two Russian men around a family dinner table.",
+            "caption": "Forrest Lee with a Family in Kamchatka, Russia October 1992."
+          },
+          {
+            "name": "forrest-lee-with-members-of-japanese-assoc-for-wild-goose-protection-may-1983.jpg",
+            "alt": "Three gentlemen, two Japanese one american, pose for a photo.",
+            "caption": "Forrest Lee with members of the Japanese Association for Wild Goose Protection, May 1983."
+          },
+          {
+            "name": "japanese-article-on-geese.jpg",
+            "alt": "An excerpt from a Japanses publication",
+            "caption": "A Japanese follow up on a North Dakota Outdoors article on Forrest Lee."
+          },
+          {
+            "name": "forrest-lee-fumio-sakumo-of-japan-in-kamchatka-1992.jpg",
+            "alt": "An American and Japanese man posing for a photo in a wintery landscape.",
+            "caption": "Forrest Lee posing for a photo with Fumio Sakumo of Japan in Kamchatka, Russia 1992."
           }
         ]
       }
